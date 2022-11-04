@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" href="Login.css" type="text/css"/>
+        
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <div class="container">
+      <div class=" col-md-offset-5 col-md-3">
+          
+          <form id="formExemplo" data-toggle="validator" role="form">
+                <div class="form-group">
+                    <label for="textNome" class="control-label">Nome</label>
+                    <input id="textNome" class="form-control" placeholder="Digite seu Nome..." type="text">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="control-label">Email</label>
+                    <input id="inputEmail" class="form-control" placeholder="Digite seu E-mail" type="email">
+                </div>
+              
+                <div class="form-group">
+                    <label for="inputPassword" class="control-label">Senha</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua Senha...">
+                </div>
+              
+                <div class="form-group">
+                    <label for="inputConfirm" class="control-label">Confirme a Senha</label>
+                    <input type="password" class="form-control" id="inputConfirm" placeholder="Confirme sua Senha...">
+                </div>
+                <div>    
+                    <div class="btn-group btn-group-justified" data-toggle="buttons">
+                        <label for="prfil" class="btn btn-success">
+                            <input type="checkbox" name="perfil" id="1">Aluno
+                        </label>
+                        <label for="perfil" class="btn btn-success">
+                            <input type="checkbox" name="perfil" id="2">Professor
+                        </label>
+                        <label for="perfil" class="btn btn-success">
+                            <input type="checkbox" name="perfil" id="3">Pedagoga
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button class="boton btn-lg btn-primary btn-block" type="submit">Entrar</button>
+                </div>
+                
+            </form>
+     </div>
+    </body>
+</html>

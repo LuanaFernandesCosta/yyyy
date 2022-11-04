@@ -1,0 +1,44 @@
+
+/* 
+    Created on : 04/11/2022, 10:30:39
+    Author     : Luana.fernandes
+*/
+html,body{
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #DCEEFC;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+h11 {
+    color:red;
+}
+
+#logo {
+        width:50%;
+        height:50%;
+}
+
+.panel-heading{
+    font-size:150%;
+    border-color: #B5DCF9; 
+    background-color: #B5DCF9;
+    border-top-color: #007CC2;
+}
+
+.form-horizontal{
+    border-color: #B5DCF9; 
+     width:50%;
+        height:50%;
+}
+
+.form-group{
+    
+}
+
